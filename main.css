@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: challu;
+    src: url(/home/challu/Desktop/extra/PoetsenOne-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    background-color: #fff;
+    background-color: #d9c089;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.header1{
+ background-color: red;
+ font-family: 'Jacquard+12';
+}
+
+.name{
+    text-shadow: 10px 10px 6px  red;
+    font-family: cursive, 'Times New Roman';
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 50px;
+
+    border-style: double;
+    border-width: 10px;
+    border-color: red;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+
+#name{
+    /* font-family:'Times New Roman', Times, serif; */
+    padding: 40px 20px;
+    font-family: 'challu';
+    font-style: italic;
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.imground{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 40px solid yellow;
+}
+
+.imgis{
+    height: 200px;
+    width: 200px;
+    float:right;
+}
