@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: challu;
-    src: url(/home/challu/Desktop/extra/PoetsenOne-Regular.ttf);
+    src: url(Jacquard12-Regular.ttf);
 }
 
 *{
@@ -19,7 +19,7 @@ body{
 
 .header1{
  background-color: red;
- font-family: 'Jacquard+12';
+ font-family: 'Jacquard 12';
 }
 
 .name{
