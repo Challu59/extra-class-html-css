@@ -7,20 +7,49 @@
 
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body{
-    background-color: red;
+    background-color: rgb(124, 255, 253);
     background-color: #fff;
     background-color: #d9c089;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(254, 240, 84, 0.874);
 }
 
-.header1{
- background-color: red;
- font-family: 'Jacquard 12';
+.header{
+ background-color: rgb(199, 255, 252);
+ /* font-family: 'Jacquard 12'; */
+ font-family: 'Open Sans ';
+ font-size: 12px;
+ /* text-align: center; */
+ align-items: center;
+ padding: 20px;
+ display: flex;
+ border: 2px solid black;
+ border-radius: 30px;
+ width: 80%;
+ margin: auto;
 }
+
+.header a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header ul{
+    text-align: right;
+    
+}
+
+.header li{
+    
+    float: right;
+    list-style: none;
+}
+
 
 .name{
     text-shadow: 10px 10px 6px  red;
