@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(225, 170, 170);
+}
+.header{
+    background-color: rgb(136, 45, 45);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.maindiv{
+    /* border: 1px solid brown; */
+    width: 60%;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:rgb(215, 131, 131);
+}
+.child{
+    /* border: 1px solid brown; */
+    width: 300px;
+    margin: 15px;
+    height: 300px;
+    display: inline-block;
+    text-align: left;
+}
+.child p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.child a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(136, 45, 45);
+    font-size: 14px;
+}
+.child a:hover{
+    background-color: rgb(194, 59, 59);
+}
