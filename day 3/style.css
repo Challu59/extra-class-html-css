@@ -1,0 +1,65 @@
+*{
+    background-color: green;
+}
+body{
+    background-color: red;
+}
+/* #h1{
+    background-color: white;
+}
+.h1{
+    background-color: blue;
+}
+h1{
+    background-color: white;
+} */
+/* .maindiv{ */
+    /* width: 50%; */
+    /* height: 100px;
+    min-width: 40%;
+} */
+.maindiv{
+    background-image: url("https://images.unsplash.com/photo-1716408192311-73e1cf39f4fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.maindiv h1{
+    display: inline;
+}
+.maindiv > .h1{
+    background: #000;
+}
+.maindiv ~ h1{
+    background-color: red;
+}
+.maindiv + h1{
+    background-color: yellow;
+}
+
+/* pseudo-class */
+
+.an:visited{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+h1{
+    opacity: 1;
+}
+.mainp{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    line-height: 100px;
+    text-indent: 100px;
+    letter-spacing: 10px;
+}
+.align{
+    text-align: center;
+}
