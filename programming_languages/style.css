@@ -14,6 +14,7 @@ body{
 }
 .maindiv{
     /* border: 1px solid brown; */
+    border-radius: 90px;
     width: 60%;
     margin: auto;
     padding-top: 2px;
@@ -32,6 +33,7 @@ body{
 .child p{
     margin-top: 5px;
     margin-bottom: 10px;
+    /* border-right: 1px solid black; */
 }
 .child a{
     text-decoration: none;
