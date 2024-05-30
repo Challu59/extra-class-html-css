@@ -1,0 +1,19 @@
+.div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s, text 2s;
+    animation-name: challu;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+}
+.div:hover{
+    width: 500px;
+    height: 500px;
+    text-transform: uppercase;
+}
+@keyframes challu{
+    from{background-color: red;} 
+    to{background-color: yellow;}
+
+}
